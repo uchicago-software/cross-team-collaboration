@@ -1,0 +1,18 @@
+name: Planning
+description: Fill this out to indicate you are interested in joining a planning session for another team or interested in having someone from another team join your planning session.
+body:
+  - type: checkboxes
+    attributes:
+      label: Type of Interest
+      description: Do you want to join another team for planning or be joined?
+      options:
+      - label: I would like to join another team's planning meeting.
+      - label: I would like to invite someone from another team to join my planning meeting.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Areas of Interest  
+      description: Briefly describe what types of planning you are interested in (pointing, scoping, data science, architecture, etc.).
+    validations:
+      required: true

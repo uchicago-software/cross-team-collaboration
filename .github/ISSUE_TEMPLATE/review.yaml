@@ -1,0 +1,15 @@
+name: Code Review
+description: Fill this out to indicate you are interested in reviewing code from another team or having your code reviewed
+body:
+  - type: textarea
+    attributes:
+      label: Requested Review
+      description: Briefly describe the code you would like reviewed.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Repository
+      description: Paste a link to the relevant repository
+    validations:
+      required: true
